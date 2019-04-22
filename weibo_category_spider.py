@@ -237,6 +237,3 @@ with open('weibo.json','r',encoding='utf-8') as f:
     print(json.loads(data))
 
 
-
-
-
