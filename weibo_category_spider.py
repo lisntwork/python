@@ -240,9 +240,3 @@ with open('weibo.json','r',encoding='utf-8') as f:
 
 
 
-# if len(list_b):
-#     print(len(list_b))
-# if len(list_c):
-#     print(list_c)
-
-
