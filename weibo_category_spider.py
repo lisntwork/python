@@ -223,17 +223,19 @@ def write_file(db):
     with open('weibo.json','w',encoding='utf-8') as f:
         f.write(db)
 
-# if __name__ == '__main__':
-#     # 传入爬取的页数并将爬取的内容写入文件
-#     db = result(20)
-#     write_file(db)
+ if __name__ == '__main__':
+      # 传入爬取的页数并将爬取的内容写入文件
+      db = result(20)
+      write_file(db)
 
 
 """
     读取文件内容
 """
+
+"""
 with open('weibo.json','r',encoding='utf-8') as f:
     data = f.read()
     print(json.loads(data))
 
-
+"""
