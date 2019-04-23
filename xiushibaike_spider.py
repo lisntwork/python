@@ -53,6 +53,10 @@ def parse_page(soup):
     """
     return megs_list
 
+
+   """
+        将信息写入文件
+   """
 def write_to_file(data):
     db = json.dumps(data)
     with open('xiushi.json','w',encoding='utf-8') as f:
@@ -60,7 +64,7 @@ def write_to_file(data):
 
 def main(page):
     """
-        将每一个页的段子信息列表存入一个大的列表，并返回
+        将每一个页的段子信息列表存入一个大的列表，然后写入文件
     """
     page_list = []
     for i in range(page):
