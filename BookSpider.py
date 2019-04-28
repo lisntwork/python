@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 
 """
-    爬取网站 http://www.allitebooks.com/page/  书籍信息：书名，作者，简介，图片
+    爬取网站 http://www.allitebooks.com/page/1  书籍信息：书名，作者，简介，图片
 """
 import requests
 from lxml import etree
@@ -85,13 +85,3 @@ class BookSpider(object):
         self.save_file()
 
 BookSpider().run()
-
-
-
-
-
-
-
-
-
-
